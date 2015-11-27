@@ -18,7 +18,7 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 #include <linux/errno.h>
-#include <unistd.h>
+//#include <unistd.h>
 
 #include "config.h"
 
@@ -72,6 +72,6 @@
     #endif
 
 
-#define delay1ms(ms) mdelay(ms)
+//#define delay1ms(ms) mdelay(ms)
 
 #endif      // _MCU_H_
